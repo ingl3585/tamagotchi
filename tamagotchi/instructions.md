@@ -24,7 +24,7 @@ Give it the following methods:</br>
 
 ---
 
-## We are going to build three additonal custom objects that will inherit the Tamagotchi Class:
+## We are going to build three additonal custom objects.
 - dog
 - cat
 - fish
