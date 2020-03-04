@@ -4,7 +4,7 @@
 
 ### 1.TBD - EST TIME: 1hr
 
-1. TBD...
+1. [Tamagotchi](./tamagotchi)
 2. Perform a pull request on the W02D03-HW repo
 
 
