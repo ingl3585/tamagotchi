@@ -1,67 +1,122 @@
-![tama](https://user-images.githubusercontent.com/6153182/33615434-2359d308-d9a8-11e7-9ac8-492bbfacd749.jpg)
+[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
+# Tamagotchi Challenge
 
-For those who don't remember (or choose to forget), tamagotchis were "digital pets" that you could carry around with you and feed them, clean up after them, pet them, and try to keep them happy.
+## Prerequisites
 
-## Before you start!!
+- Understanding of how to define and access properties
+- Understanding of how to define and invoke functions, including constructor functions
 
-- Create an app.js and index.html file and make sure to link them. 
+## Instructions
 
-# Tamagotchi Version 1.0
+1.  Fork and clone this repository.
+1.  Change into the new directory.
+1.  Install dependencies.
+1.  Create and checkout a new branch to work on.
+1.  Fulfill the listed requirements.
 
-Make a ```Tamagotchi``` object. Give it the following properties:  
-1. a `hungry` property (initially false)  
-2. a `sick` property (initially false)  
-3. an `age` of 0  
-4. a `rest level` (initally set to 5)
+Starter code is available in [`lib/challenge.js`](lib/challenge.js). Run your application from [`bin/main.js`](bin/main.js). A pull
+request is not required, but it is necessary if you want a code review.
 
-Give it the following methods:</br>
+You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
+related to [forking,
+cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
 
-1. ```feed()``` - if hungry is true, return "That was yummy!" and set hungry to false.  If hungry is false, return "No thanks, I'm full." and set hungry to true.  
-2. ```sleep()``` - returns "zzzzzzz" (use as many z's as you want) and increase rest level
-3. ```medicate()``` - if sick is true, return "I feel much better!" and set sick to false.  If sick is false, return "No thanks, I feel fine." and set sick to true.
-4. ```increaseAge()``` - increase the age by one and return "Happy Birthday to me! I am " + age + " years old!"
+## Requirements
+## Build a Tamagotchi
 
----
+What is a tamagotchi? According to [wikipedia](https://en.wikipedia.org/wiki/Tamagotchi), the name is a portmanteau combining the Japanese word tamago (たまご), which means "egg", and the English word "watch". Most Tamagotchi characters' names end in tchi (っち) in Japanese, with few exceptions.
 
-## We are going to build three additonal custom objects.
-- dog
-- cat
-- fish
+A tamagotchi has a few properties:
+```js
+/*
+- name
+- weight
+- age
+- birthday
+- description
+- hungerLevel
+- happinessLevel
+- attentionLevel
+- lifeStage // Baby, Child, Teen, and Adult
+/*
+```
 
+A few states:
+```js
+/*
+- isHungry
+- wantsToPlay
+- isHappy
+- needsAttention
+*/
+```
 
-### It should have this additional property:
--  a `breed` property (set this this to a breed of your choice)  
+And a few behaviors:
+```js
+eat() {
+/* feeding should satisfy hunger, depending on what you feed it, and may increase weight
+ grass, meat, tofu, bread, candy, etc…
+*/
+}
 
-#### and also have these functions:
--  ```bark()``` - returns "ruff ruff  
--  ```goOutside()``` - returns "I own that tree now!"  
+speak() {
+ /* what needs does your tamagotchi have? */
+}
 
+play() {
+ /* playing with your tamagotchi should increase happiness, satisfy need for attention, and may decrease weight */
+}
+```
 
-### It should have this additional property:
--  a `furry` property (initially `true`)  
+Usage:
+```js
+tamagotchi = new Tamagotchi('Mesutchi') // Hatch your tamagotchi. Names usually end in tchi (っち)
+tamagotchi.age // 0
+tamagotchi.birthday // today's date
+tamagotchi.weight // 1 
+tamagotchi.description // 'A <lifeStage> tamagotchi named <name> born on <birthday> weighing <weight>'
+tamagotchi.speak() // 'Mesutchi is <some state>'
+```
 
-#### and also have these functions:
--  ```meow()``` - returns "Meow!"  
--  ```useLitterBox()``` - returns "Burried treasure!"  
+## Bonus:
+Continue to implement a real tamagotchi, adding the following properties and methods:
 
-### It should have this additional property:
--  a `fishType` property (initially set to `salmon`)  
--  a `kosher` property (initially `true`)  
+Properties:
+```js
+/*
+- disciplineLevel
+- isDisciplined
+- needsBathroom
+- itPottyTrained
+- isSick
+- sleeping
+*/
+```
 
-#### and also have these functions:
--  ```swim()``` - returns "Just keep swimming..."  
+Methods:
+```js
 
----
+sleep()
 
-Try the following:  
-1. Feed the dog twice.  
-2. Increase the dog's age twice.  
-3. Make the dog bark.  
-4. Make the dog go outside.  
-5. Make the cat meow.  
-6. Make the cat sleep.  
-7. Make the cat use the litter box.  
-8. Give the fish medicine twice.  
-9. Make the fish swim.
----
+wake()
+
+scold() {
+ /* fills discipline level, reduces happiness level */
+}
+
+useBathroom()
+
+view() {
+ /* displays image of the tamagotchi */
+}
+
+```
+
+What else can your tamagotchi do?
+
+## [License](LICENSE)
+
+1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
+1.  All software code is licensed under GNU GPLv3. For commercial use or
+    alternative licensing, please contact legal@ga.co.
