@@ -20,8 +20,8 @@ No Algo tonight
 
 ### 4.  INTERVIEW PRACTICE - EST TIME: 15min
 
-1. Under the TIME MANAGEMENT section write your answer to the following interview question: 
+- Answer the following interview question: 
    - **Sometimes it’s just not possible to get everything on your to-do list done. Tell me about a time your responsibilities got a little overwhelming. What did you do?**.
-2. All answers must be at least a paragraph in length however the more you write the more you have to talk about.
-3. Add a link to the following [spreadheet](https://docs.google.com/spreadsheets/u/0/d/1brTSyF1pa1bjWFS5yUrMyizd3sZgvYn5uLet93aZKVg/edit) to your shared google doc.
+   - All answers must be at least a paragraph in length however the more you write the more you have to talk about.
 
+   - **Tell me about a time you set a goal for yourself. How did you go about ensuring that you would meet your objective?**.
