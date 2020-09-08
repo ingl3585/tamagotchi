@@ -22,6 +22,5 @@ No Algo tonight
 
 - Answer the following interview question: 
    - **Sometimes it’s just not possible to get everything on your to-do list done. Tell me about a time your responsibilities got a little overwhelming. What did you do?**.
-   - All answers must be at least a paragraph in length however the more you write the more you have to talk about.
+- All answers must be at least a paragraph in length however the more you write the more you have to talk about.
 
-   - **Tell me about a time you set a goal for yourself. How did you go about ensuring that you would meet your objective?**.
