@@ -5,7 +5,7 @@
 ### 1.TBD - EST TIME: 1hr
 
 - [Tamagotchi](./tamagotchi)
-Be sure to check the issues box in the settings tab so we can leave comments
+- Be sure to check the issues box in the settings tab so we can leave comments
 - When completed submit your homework [here](https://docs.google.com/forms/d/e/1FAIpQLSeroos9mbUxkYhzETYq4dylzqb_il07tKHBby2YPLkqb0Wr9Q/viewform). 
 
 
