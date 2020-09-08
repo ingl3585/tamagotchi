@@ -1,4 +1,4 @@
-# W02D03-HW
+# Tamagotchi HW
 
 ## Command Line / Interview Questions
 
